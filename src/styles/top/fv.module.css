@@ -1,0 +1,62 @@
+.wrap {
+    padding: 1.2%;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrap .fv {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap .fv img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    animation: fv 25s infinite;
+}
+
+
+.copy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "tegaki";
+    margin-top: -100px;
+}
+
+.copy span {
+    font-size: 65px;
+    transform: rotate(-5deg);
+}
+
+@media screen and (max-width: 900px) {
+    .wrap {
+        height: 50vh;
+    }
+ }
+
+
+ @keyframes fv {
+    0% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+ }

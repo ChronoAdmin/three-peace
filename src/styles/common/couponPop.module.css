@@ -1,0 +1,65 @@
+.wrap {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    height: 250px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px #0000008f;
+    padding: 10px;
+    z-index: 10;
+}
+
+.wrap a {
+    display: block;
+    height: 100%;
+    transition: all .3s;
+    z-index: 2;
+}
+
+.close {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 3;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap a:hover {
+    opacity: .5;
+}
+
+.box .img {
+    width: 100%;
+}
+
+.box .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text span {
+    letter-spacing: 2px;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+
+.label {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    background-color: #8b744d;
+    padding: 10px;
+}

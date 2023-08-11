@@ -1,0 +1,94 @@
+.wrap {
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e1e1e1;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.wrap .backImg {
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    opacity: .6;
+    width: 200px;
+    z-index: 0;
+}
+.wrap .backImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.contact h1 {
+    font-size: 18px;
+    color: #8b744d;
+    background: #ecded3;
+    transition: all .3s ease-in-out;
+}
+
+.contact h1 a {
+    writing-mode: vertical-rl;
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.contact h1:hover {
+    opacity: .7;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    color: #262626;
+}
+
+.icon svg {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+    padding: 10px;
+    background-color: #8b744d;
+    height: 70px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.nav {
+
+}
