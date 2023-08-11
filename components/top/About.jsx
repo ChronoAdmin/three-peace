@@ -74,7 +74,7 @@ const About = () => {
                   ref={imgRef}
                 />
                 <div className={styles.text}>
-                  <h3>和の背景</h3>
+                  <h3><span style={{color:"#8b744d"}}>和</span>の背景</h3>
                   <span>
                     京都には数多くの世界遺産が点在し、その中には金閣寺や清水寺など、圧倒的な美しさを誇る歴史的な寺院や神社があります。それぞれが異なる雰囲気を持ち、和風の優雅さを感じさせます。
                   </span>
@@ -91,7 +91,7 @@ const About = () => {
                   ref={img2Ref}
                 />
                 <div className={styles.text}>
-                  <h3>多彩なスタジオ</h3>
+                  <h3><span style={{color:"purple"}}>多</span>彩なスタジオ</h3>
                   <span>
                   もちろん、京都の美しい街並みと自然だけが私たちのフォトウェディングの魅力ではありません。室内のプロフェッショナルな撮影スタジオもご利用いただけます。
                   </span>

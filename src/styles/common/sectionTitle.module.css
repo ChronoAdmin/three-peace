@@ -1,0 +1,26 @@
+.title {
+    color: #000;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    padding: 0 10%;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.title h2 {
+    margin-bottom: 20px;
+    font-size: 2vw;
+    letter-spacing: 3px;
+}
+
+.tegaki {
+    font-family: "tegaki";
+    position: absolute;
+    left: 0;
+    top: 0%;
+    transform: translateY(-50%) rotate(-7deg);
+    font-size: 3vw;
+    opacity: .2;
+}

@@ -5,7 +5,8 @@ import Fv from "../../components/top/Fv";
 import Loading from "../../components/common/Loading";
 import About from "../../components/top/About";
 import Service from "../../components/top/Service";
-import BotArea from "../../components/chatgpt/BotArea";
+import Demand from "../../components/top/Demand";
+import Plan from "../../components/top/Plan";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,7 +37,8 @@ export default function Home() {
         <Fv />
         <About />
         <Service />
-        {/* <BotArea /> */}
+        <Demand />
+        <Plan />
       </div>
     </>
   );

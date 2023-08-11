@@ -1,0 +1,66 @@
+.wrap {
+    padding: 3% 1.4%;
+    background-color: #f6f1ed;
+    background: linear-gradient(to bottom,#fff,#bebebe);
+  }
+
+  .wrap h2 {
+    color: #000;
+    text-align: center;
+    margin: 3% 0;
+    font-size: 2vw;
+
+  }
+  
+  .boxs {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 1.5vw;
+  }
+  
+  .box {
+    width: 40%;
+    display: flex; 
+    gap: 3%;
+    background-color: #ecded3;
+    padding: 1%;
+    box-shadow: 0 0 10px #8b744d56;
+  }
+  
+  .img, .txt {
+    width: 48%; 
+  }
+  
+
+
+  .img img {
+    height: auto;
+  }
+  
+  .txt {
+    color: #8b744d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 0;
+  }
+
+  .txt h3 {
+    color: #3f2c0a;
+  }
+
+  .txt a {
+    font-size: 12px;
+    margin-left: auto;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #8b744da3;
+  }
+  
+  /* Responsive design to stack boxes vertically on smaller screens */
+  @media (max-width: 768px) {
+    .box {
+      width: 100%;
+    }
+  }
+  

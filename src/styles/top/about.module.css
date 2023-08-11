@@ -101,9 +101,9 @@
     position: absolute;
     left: 0;
     top: 0%;
-    transform: translateY(-50%) rotate(-15deg);
+    transform: translateY(-50%) rotate(-7deg);
     font-size: 3vw;
-    opacity: .4;
+    opacity: .2;
 }
 
 .container {
